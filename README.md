@@ -1,6 +1,6 @@
 Rockfall Detection and Monitoring System
 
-A desktop-based 3D monitoring system designed to analyze terrain stress points, process sensor CSV data, simulate rockfall risk on a 3D mesh, and trigger alerts based on region-wise employee mapping. The system aims to provide a simple, practical solution for industries such as mining, construction, and tunneling operations.
+A GNN-based 3D monitoring system designed to analyze terrain stress points, process sensor CSV data, simulate rockfall risk on a 3D mesh, and trigger alerts based on region-wise employee mapping. The system aims to provide a simple, practical solution for industries such as mining, construction, and tunneling operations.
 
 1. Overview
 
