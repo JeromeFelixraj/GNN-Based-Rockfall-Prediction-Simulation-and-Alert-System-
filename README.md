@@ -42,8 +42,8 @@ Check environmental parameters through side meters
 
 Monitor timestamps during live analysis
 
-Screenshot
-![Real-time Monitoring](images/realtime_monitoring.png)
+<img width="1920" height="1080" alt="realtime monitoring" src="https://github.com/user-attachments/assets/1a69a4ad-2fd0-42e9-9f69-7a37f7e747fd" />
+
 
 3. Stress Analysis
 
@@ -73,8 +73,8 @@ Crack width
 
 Rainfall
 
-Screenshot
-![Stress Analysis](images/stress_analysis.png)
+
+
 
 4. Simulation Module
 
@@ -94,8 +94,8 @@ System recalculates node risk in real time
 
 Drag & place tools (e.g., dynamite effects) available on the UI
 
-Screenshot
-![Simulation Module](images/simulation.png)
+<img width="1920" height="1080" alt="simulation" src="https://github.com/user-attachments/assets/80aaebfe-e7a5-4c67-996b-bc12561dbb3f" />
+
 
 5. Employee Management
 
@@ -111,8 +111,8 @@ Department field
 
 Automatic linking between region risk and employee responsible
 
-Screenshot
-![Employee Management](images/employee_management.png)
+<img width="1920" height="1080" alt="emp management " src="https://github.com/user-attachments/assets/7c32af4b-a23a-42ae-96e3-bbf6bf0949a1" />
+
 
 6. Alert System
 
@@ -130,17 +130,9 @@ Region name
 
 Employee name
 
-Screenshot
-![Alert Popup](images/alert_popup.png)
+<img width="1920" height="1080" alt="system" src="https://github.com/user-attachments/assets/df67314c-b74a-4941-971c-01f82d52b047" />  ![alert call](https://github.com/user-attachments/assets/e404523a-a2fa-4e4f-a940-a7a9b66b1190)
 
-7. Emergency Call Workflow
-
-As part of the alert pipeline, the system can optionally trigger an emergency call sequence (manual or API-based).
-
-Screenshot
-![Emergency Call](images/emergency_call.png)
-
-8. Risk Score Calculation
+7. Risk Score Calculation
 
 Risk scoring is done through a simple threshold-based formula using:
 
@@ -160,7 +152,7 @@ Red nodes represent highest stress, yellow moderate, blue low.
 
 This system does not use AI. All logic is deterministic.
 
-9. File Inputs
+8. File Inputs
 3D Model
 
 Supports formats like OBJ, GLB, STL.
@@ -171,11 +163,11 @@ Example columns:
 
 node_id,temperature,humidity,ground_pressure,vibration,crack_width,rainfall
 
-10. Technologies Used
+9. Technologies Used
 
 Python
 
-PyQt5
+PyQt6
 
 OpenGL (for 3D rendering)
 
@@ -185,7 +177,7 @@ JSON/local DB for employee storage
 
 Standard threshold-based risk logic
 
-11. Limitations
+10. Limitations
 
 No GNN or ML model yet
 
@@ -197,7 +189,7 @@ Desktop-only application
 
 CSV must contain clean sensor values
 
-12. Future Improvements
+11. Future Improvements
 
 Integrate GNN/ML-based rockfall prediction
 
