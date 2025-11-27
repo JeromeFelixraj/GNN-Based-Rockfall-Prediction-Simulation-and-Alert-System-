@@ -20,6 +20,8 @@ Real-time monitoring dashboard
 
 Simulation tools
 
+Blast Simulations
+
 Automatic alert popups
 
 Optional emergency call workflow
