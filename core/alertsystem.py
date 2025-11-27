@@ -7,9 +7,9 @@ from concurrent.futures import ThreadPoolExecutor
 
 FIREBASE_DB_URL = "https://ai-rockfall-alert-system-default-rtdb.firebaseio.com/"
 TWILIO_CONFIG = {
-    "account_sid": "ACe81857e26e905d808cb7ea7b9c72fcbf",
-    "auth_token": "ac40b693024209c6d3078e9a08adf3b1",
-    "phone_number": "+12298000388"
+    "account_sid": "hidden",
+    "auth_token": "hidden",
+    "phone_number": "hidden"
 }
 
 # Default per-region messages
@@ -237,3 +237,4 @@ class TwilioManager:
         except Exception as e:
             print(f"[ERROR] Call failed for {to}: {e}")
             return None
+
